@@ -1,5 +1,5 @@
 [project]
-requires-python = ">=3.8"
+requires-python = ">=3.9,<3.11"
 
 [tool.black]
 target-version = ['py38']
@@ -22,7 +22,7 @@ maintainers = [
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.11"
+python = ">=3.9,<3.11"
 advocate = "1.0.0"
 aniso8601 = "8.0.0"
 authlib = "0.15.5"
@@ -58,7 +58,7 @@ pyopenssl = "24.2.1"
 pypd = "1.1.0"
 pysaml2 = "7.3.1"
 pystache = "0.6.0"
-python-dateutil = "2.8.0"
+python-dateutil = "2.8.2"
 python-dotenv = "0.19.2"
 pytz = ">=2019.3"
 pyyaml = "6.0.1"
@@ -100,8 +100,10 @@ certifi = ">=2019.9.11"
 cmem-cmempy = "21.2.3"
 databend-py = "0.4.6"
 databend-sqlalchemy = "0.2.4"
+e6data-python-connector = "1.1.9"
 google-api-python-client = "1.7.11"
 gspread = "5.11.2"
+hdbcli = '>=2.22.27'
 impyla = "0.16.0"
 influxdb = "5.2.3"
 influxdb-client = "1.38.0"
@@ -112,7 +114,7 @@ nzpy = ">=1.15"
 oauth2client = "4.1.3"
 openpyxl = "3.0.7"
 oracledb = "2.1.2"
-pandas = "1.3.4"
+pandas = "2.2.3"
 phoenixdb = "0.7"
 pinotdb = ">=0.4.5"
 protobuf = "3.20.2"
@@ -137,7 +139,6 @@ thrift-sasl = ">=0.1.0"
 trino = ">=0.305,<1.0"
 vertica-python = "1.1.1"
 xlrd = "2.0.1"
-e6data-python-connector = "1.1.9"
 
 [tool.poetry.group.ldap3]
 optional = true
