@@ -2651,13 +2651,13 @@ signedtoken = ["cryptography (>=3.0.0)", "pyjwt (>=2.0.0,<3)"]
 
 [[package]]
 name = "openpyxl"
-version = "3.0.7"
+version = "3.1.0"
 description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
 optional = false
-python-versions = ">=3.6,"
+python-versions = ">=3.6"
 files = [
-    {file = "openpyxl-3.0.7-py2.py3-none-any.whl", hash = "sha256:46af4eaf201a89b610fcca177eed957635f88770a5462fb6aae4a2a52b0ff516"},
-    {file = "openpyxl-3.0.7.tar.gz", hash = "sha256:6456a3b472e1ef0facb1129f3c6ef00713cebf62e736cd7a75bcc3247432f251"},
+    {file = "openpyxl-3.1.0-py2.py3-none-any.whl", hash = "sha256:24d7d361025d186ba91eff58135d50855cf035a84371b891e58fb6eb5125660f"},
+    {file = "openpyxl-3.1.0.tar.gz", hash = "sha256:eccedbe1cdd8b2494057e73959b496821141038dbb7eb9266ea59e3f34208231"},
 ]
 
 [package.dependencies]
@@ -5473,4 +5473,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.11"
-content-hash = "bdbb65c6a529f866a5dd42d5d4b2e5b32561b76756896e5a85f9d2630273b883"
+content-hash = "1a2cf58bc62e09aa141646be0490dc365b0cda0a5aac113eecd0b88318a62d5f"
