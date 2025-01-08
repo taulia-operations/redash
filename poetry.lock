@@ -5356,13 +5356,13 @@ test = ["pytest", "pytest-cov"]
 
 [[package]]
 name = "xlsxwriter"
-version = "1.2.2"
+version = "3.0.5"
 description = "A Python module for creating Excel XLSX files."
 optional = false
-python-versions = "*"
+python-versions = ">=3.6"
 files = [
-    {file = "XlsxWriter-1.2.2-py2.py3-none-any.whl", hash = "sha256:00e9c337589ec67a69f1220f47409146ab1affd8eb1e8eaad23f35685bd23e47"},
-    {file = "XlsxWriter-1.2.2.tar.gz", hash = "sha256:5a5e2195a4672d17db79839bbdf1006a521adb57eaceea1c335ae4b3d19f088f"},
+    {file = "XlsxWriter-3.0.5-py3-none-any.whl", hash = "sha256:a5c97a25b319e92b7eeab6e37593192c4dde718084eff23f045eb1df704dde83"},
+    {file = "XlsxWriter-3.0.5.tar.gz", hash = "sha256:fe2b1e2dec38ef8952e9a41a0290861a052e6771a9f43f5e3d56dc63b7112348"},
 ]
 
 [[package]]
@@ -5473,4 +5473,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.11"
-content-hash = "6362a717204906987e3dc76e00e0873c80a8379d72b82e9593bb7ed9c22aaf78"
+content-hash = "bdbb65c6a529f866a5dd42d5d4b2e5b32561b76756896e5a85f9d2630273b883"
